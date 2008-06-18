@@ -21,7 +21,7 @@ Document.Methods = {
 		return new XMLSerializer().serializeToString(this)
 	},
 	evaluateXpath: function(xpath){
-		return document.evaluate(
+		return this.evaluate(
 		    xpath.toLowerCase(),
 		    this,
 		    null, XPathResult.ANY_TYPE, null 
