@@ -1,0 +1,1 @@
+A simple script that extends the prototype library with methods that help relate a form to an xml document.
